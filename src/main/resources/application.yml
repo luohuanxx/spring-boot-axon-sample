@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:h2:file:./target/h2
-    username: sa
-    password:
-    driver-class-name: org.h2.Driver
+    url: jdbc:mysql://47.100.247.117:3306/composition?useSSL=false&useUnicode=true&characterEncoding=UTF8&useServerPrepStmts=true&prepStmtCacheSqlLimit=256&cachePrepStmts=true&prepStmtCacheSize=256&rewriteBatchedStatements=true
+    username: root
+    password: Lh852898625
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     generate-ddl: true
